@@ -8,11 +8,11 @@ public class Main {
     public static int count = 0;
 
     public static void main(String[] args) {
-        deinName();
+        userName();
         age();
         nextRound();
     }
-    public static void deinName () {
+    public static void userName () {
         System.out.println("Hallo wie heiß du?");
         Scanner console = new Scanner(System.in);
         String name = console.nextLine();
